@@ -1,0 +1,57 @@
+---
+title: "Google brain 计划"
+author: "Heyang Gong"
+date: "`r Sys.Date()`"
+output: 
+  html_document: 
+    number_sections: yes
+    toc: yes
+---
+
+```{r setup,eval=TRUE, echo=FALSE, warning=FALSE,message=FALSE}
+knitr::opts_chunk$set(
+  eval = FALSE,
+	echo = TRUE,
+	message = FALSE,
+	warning = FALSE
+)
+```
+
+这是 google brain 项目实行计划主文件。https://research.google.com
+
+```{r}
+file.create("README.md")
+```
+
+
+
+## Quick start
+
+google "google brain 实习"
+
+
+### 准备申请材料
+
+
+[Google Brain team 招聘页面](https://careers.google.com/jobs#!t=jo&jid=/google/google-brain-resident-2017-start-fixed-1600-amphitheatre-pkwy-mountain-view-ca-159360005&)
+
+1. 必要条件分析的 R 包,
+2. 深度学习 kaggle 竞赛名次,
+3. 机器学习西瓜书项目,
+4. Coursera 相关课程的证书.
+
+
+然而里面的要求确是：
+
+    Current CV
+    Cover letter including a statement on why you think you'd be great for the Google Brain Residency Program
+    Transcripts from your most recent degree
+    Letter of recommendation (minimum of one letter) - Letters may be sent directly to brain-residency@google.com
+    Links to GitHub, papers and/or blogs if applicable
+    
+ Responsibilities
+
+    Understand a large body of research in deep learning quickly.
+    Work with your research mentors to formulate research project(s) and/or novel application(s) of the technology.
+    Conduct research and publish it in competitive venues.
+    Implement algorithms in TensorFlow.
